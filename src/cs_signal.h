@@ -80,7 +80,7 @@ bool connect(const Sender &sender, std::unique_ptr<Internal::BentoAbstract> sign
                   ConnectionKind type = ConnectionKind::AutoConnection, bool uniqueConnection = false);
 
 // base class
-class LIB_SIG_EXPORT SignalBase
+class  SignalBase
 {
    public:
       virtual ~SignalBase();
